@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio informativo sobre la charla internacional 'Traigamos el Color de Vuelta' de Sara Viloria en el evento Moda ECCI — Experiencia académica FrontEnd, ADSO." />
+  <title>Traigamos el Color de Vuelta · Moda ECCI 2026</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAV
+══════════════════════════════════════ -->
+<nav class="nav" aria-label="Navegación principal">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-brand" aria-label="Inicio">
+      Traigamos el Color
+      <small>Moda ECCI · 2026</small>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#conferencia" class="es">Conferencia</a><a href="#conferencia" class="en">Conference</a></li>
+      <li><a href="#galeria" class="es">Galería</a><a href="#galeria" class="en">Gallery</a></li>
+      <li><a href="#teoria" class="es">Teoría del Color</a><a href="#teoria" class="en">Color Theory</a></li>
+      <li><a href="#glosario" class="es">Glosario</a><a href="#glosario" class="en">Glossary</a></li>
+      <li><a href="#sostenibilidad" class="es">Sostenibilidad</a><a href="#sostenibilidad" class="en">Sustainability</a></li>
+    </ul>
+
+    <div style="display:flex;align-items:center;gap:.8rem;">
+      <button id="langBtn" aria-pressed="false" aria-label="Cambiar idioma">EN</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section id="hero" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-strip" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="es">Charla Internacional · Moda ECCI</span>
+          <span class="en">International Talk · Moda ECCI</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="es">Traigamos el<br><span class="accent-line">Color</span>de <span class="accent-red">Vuelta</span></span>
+          <span class="en">Let's Bring<br><span class="accent-line">Color</span>Back</span>
+        </h1>
+
+        <div class="hero-meta" aria-label="Detalles del evento">
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span class="es">Miércoles 27 de mayo, 2026 · 11:15 a.m.</span>
+            <span class="en">Wednesday, May 27, 2026 · 11:15 a.m.</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="es">Auditorio Crisanto Luque · ECCI, Bogotá</span>
+            <span class="en">Crisanto Luque Auditorium · ECCI, Bogotá</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            <span>Sara Viloria · @saravilorian</span>
+          </div>
+        </div>
+
+        <a href="#conferencia" class="hero-cta">
+          <span class="es">Explorar la charla</span>
+          <span class="en">Explore the talk</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-poster-wrap">
+          <div class="hero-poster-glow"></div>
+          <img src="img/poster.png" alt="Flyer oficial de la charla Traigamos el Color de Vuelta con Sara Viloria" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     INTRO / CONTEXTO
+══════════════════════════════════════ -->
+<section id="conferencia" class="intro-section">
+  <div class="container">
+    <div class="intro-grid">
+
+      <div class="intro-img-wrap reveal">
+        <img class="intro-img-main" src="img/evento-general.jpg" alt="Vista panorámica del evento Moda ECCI en el auditorio Crisanto Luque" loading="lazy" />
+        <div class="intro-img-badge">
+          27 · V · 2026
+          <small class="es">Evento académico</small>
+          <small class="en">Academic event</small>
+        </div>
+      </div>
+
+      <div class="intro-text reveal reveal-delay-2">
+        <span class="tag es">Resumen ejecutivo</span>
+        <span class="tag en">Executive Summary</span>
+
+        <h2 class="section-title es">¿De qué trató la <span>charla</span>?</h2>
+        <h2 class="section-title en">What was the <span>talk</span> about?</h2>
+
+        <p class="section-subtitle es">
+          La ponente Sara Viloria abordó críticamente la tendencia contemporánea hacia paletas neutras —grises, beige, blanco— en diseño y cultura visual, especialmente en América Latina. Advirtió cómo esta "cromofobia" refleja una herencia colonial y una lógica de mercado que desvaloriza la riqueza cromática propia de las culturas latinas.
+        </p>
+        <p class="section-subtitle en">
+          Speaker Sara Viloria critically addressed the contemporary trend toward neutral palettes — grays, beige, and white — in design and visual culture, especially in Latin America. She warned how this "chromophobia" reflects a colonial legacy and market logic that undervalues the chromatic richness inherent in Latin cultures.
+        </p>
+
+        <blockquote class="intro-quote es">
+          "Nosotros, América Latina, nunca hemos sido beige; somos una historia escrita por muchas manos."
+        </blockquote>
+        <blockquote class="intro-quote en">
+          "We, Latin America, have never been beige; we are a history written by many hands."
+        </blockquote>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SARA VILORIA — SPEAKER
+══════════════════════════════════════ -->
+<section id="speaker" class="speaker-section">
+  <div class="container">
+    <div class="speaker-grid">
+
+      <div class="speaker-img-frame reveal">
+        <img src="img/sara-perfil.jpg" alt="Sara Viloria presentando la charla en el auditorio Crisanto Luque" loading="lazy" />
+        <div class="speaker-brands">
+          <span class="brand-pill">Pantone Institute</span>
+          <span class="brand-pill">Leatrice Eiseman</span>
+          <span class="brand-pill">Colour Academy</span>
+          <span class="brand-pill">Fujifilm · Zeiss</span>
+        </div>
+      </div>
+
+      <div class="speaker-text reveal reveal-delay-2">
+        <span class="tag es">La oradora</span>
+        <span class="tag en">The speaker</span>
+
+        <h2 class="section-title">Sara <span>Viloria</span></h2>
+
+        <p class="section-subtitle es">
+          Nacida en 1991, Sara Viloria es licenciada en Artes Visuales, especializada en animación y en la expresión territorial del color. Está certificada como consultora de color por Leatrice Eiseman, directora ejecutiva del Pantone Institute. Ha trabajado como Coordinadora de Educación del Museo de Artes Visuales MAVI de Santiago, mediadora cultural para pueblos originarios y curadora de arte. Es pintora, poeta y escritora, ganadora de la Beca Fundación Neruda (2021) y del premio Lily Peter Fellowship (EE. UU). Ha publicado dos libros: <em>Color y Acuarela</em> y <em>Cartas para Siena</em>.
+        </p>
+        <p class="section-subtitle en">
+          Born in 1991, Sara Viloria holds a degree in Visual Arts with a specialization in animation and the territorial expression of color. She is certified as a color consultant by Leatrice Eiseman, Executive Director of the Pantone Institute. She has worked as Education Coordinator at the MAVI Visual Arts Museum in Santiago, cultural mediator for indigenous communities, and art curator. A painter, poet, and writer, she received the Fundación Neruda Grant (2021) and the Lily Peter Fellowship (USA), and has published two books: <em>Color y Acuarela</em> and <em>Cartas para Siena</em>.
+        </p>
+
+        <div class="speaker-stats">
+          <div class="stat-card">
+            <div class="stat-num">2</div>
+            <div class="stat-label es">Libros publicados</div>
+            <div class="stat-label en">Published books</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3</div>
+            <div class="stat-label es">Países representados en la charla</div>
+            <div class="stat-label en">Countries represented in the talk</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">∞</div>
+            <div class="stat-label es">Colores que merece Latinoamérica</div>
+            <div class="stat-label en">Colors Latin America deserves</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     GALLERY MOSAIC
+══════════════════════════════════════ -->
+<section id="galeria" class="mosaic-section">
+  <div class="container">
+    <div class="mosaic-header reveal">
+      <span class="tag es">El evento en imágenes</span>
+      <span class="tag en">The event in pictures</span>
+      <h2 class="section-title es">Así vivimos <span>Moda ECCI</span></h2>
+      <h2 class="section-title en">How we lived <span>Moda ECCI</span></h2>
+      <p class="section-subtitle es">Haz clic en cualquier imagen para verla en detalle. Cada foto captura un momento real de esta experiencia académica.</p>
+      <p class="section-subtitle en">Click any image to view it in detail. Each photo captures a real moment of this academic experience.</p>
+    </div>
+
+    <div class="mosaic" role="list">
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 1 del evento">
+        <img src="img/colores-complementarios.jpg" alt="Diapositiva sobre colores complementarios: complementarios dobles, puro y divididos — charla Sara Viloria" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Colores complementarios · Círculo cromático</p>
+          <p class="photo-caption en">Complementary colors · Color wheel</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 2 del evento">
+        <img src="img/paleta-emociones.jpg" alt="Diapositiva de colores analógicos y psicología del color aplicada a marcas como Coca-Cola, McDonald's, Barbie" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Psicología del color en marcas globales</p>
+          <p class="photo-caption en">Color psychology in global brands</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 3 del evento">
+        <img src="img/importancia-color.jpg" alt="Diapositiva '¿Por qué es importante saber de color?' con términos: Dios, Color, Arte, Vida" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">¿Por qué es importante saber de color?</p>
+          <p class="photo-caption en">Why is color knowledge important?</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 4 del evento">
+        <img src="img/psicologia-color.jpg" alt="Diagrama de la psicología del color con emociones por tonos: rojo, naranja, amarillo, verde, azul, morado" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">La psicología del color</p>
+          <p class="photo-caption en">The psychology of color</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 5 del evento">
+        <img src="img/saturacion.jpg" alt="Diapositiva sobre saturación del color y su intensidad cromática, con modelo 3D del espacio de color" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Saturación: la intensidad del color</p>
+          <p class="photo-caption en">Saturation: color intensity</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 6 del evento">
+        <img src="img/monotono.jpg" alt="Diapositiva 'Monotono' con fotografía de piedras grises, contraste con círculo cromático" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Monotonía vs. diversidad cromática</p>
+          <p class="photo-caption en">Monotony vs. chromatic diversity</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 7 del evento">
+        <img src="img/stand-habitacion.jpg" alt="Stand artístico del evento Moda ECCI: decoración de habitación con peluches, tablet y fotografías" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Stand creativo · Colección Indiscencia</p>
+          <p class="photo-caption en">Creative stand · Indiscencia Collection</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 8 del evento">
+        <img src="img/stand-discoteca.jpg" alt="Stand de lencería con CDs holográficos, vasos de colores y maniquíes en el evento Moda ECCI" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Stand · Éxtasis — cromatismo retro</p>
+          <p class="photo-caption en">Stand · Extasis — retro chromatism</p>
+        </div>
+      </figure>
+
+      <figure class="mosaic-item" role="listitem" aria-label="Foto 9 del evento">
+        <img src="img/stand-azul.jpg" alt="Stand de diseño en tonos azul y blanco con maniquí de vestido artesanal en Moda ECCI" loading="lazy" />
+        <div class="photo-overlay">
+          <p class="photo-caption es">Stand · Homenaje a la Niña — azul y blanco</p>
+          <p class="photo-caption en">Stand · Tribute to the Girl — blue & white</p>
+        </div>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     COLOR THEORY — CONFERENCIA
+══════════════════════════════════════ -->
+<section id="teoria" class="theory-section">
+  <div class="container">
+    <div class="theory-grid">
+
+      <div class="theory-left">
+        <span class="tag es">Lo que aprendimos</span>
+        <span class="tag en">What we learned</span>
+        <h2 class="section-title es">Teoría del <span>Color</span></h2>
+        <h2 class="section-title en">Color <span>Theory</span></h2>
+        <p class="section-subtitle es" style="margin-bottom:2rem;">Sara Viloria presentó conceptos técnicos clave que conectan el arte con el diseño digital y la identidad visual.</p>
+        <p class="section-subtitle en" style="margin-bottom:2rem;">Sara Viloria presented key technical concepts connecting art with digital design and visual identity.</p>
+
+        <div class="theory-cards">
+
+          <div class="theory-card c1 reveal">
+            <h3 class="es">Colores complementarios</h3>
+            <h3 class="en">Complementary colors</h3>
+            <p class="es">Los colores opuestos en el círculo cromático se potencian mutuamente. Existen tres variantes: complementario puro, doble y dividido. Cada uno genera contrastes visuales únicos aplicables al diseño de interfaces y al branding.</p>
+            <p class="en">Colors opposite each other on the color wheel amplify one another. There are three variants: pure, double, and split complementary. Each creates unique visual contrasts applicable to UI design and branding.</p>
+          </div>
+
+          <div class="theory-card c2 reveal reveal-delay-1">
+            <h3 class="es">Saturación y cromía</h3>
+            <h3 class="en">Saturation and chroma</h3>
+            <p class="es">La saturación proyecta la intensidad del color desde un eje central gris. Un color "que grita" tiene alta saturación; uno que parece grisáceo, baja saturación. Este principio es fundamental para jerarquías visuales en UI/UX.</p>
+            <p class="en">Saturation measures color intensity outward from a central gray axis. A color that "shouts" has high saturation; one that appears grayish has low saturation. This principle is fundamental for visual hierarchies in UI/UX.</p>
+          </div>
+
+          <div class="theory-card c3 reveal reveal-delay-2">
+            <h3 class="es">Psicología del color</h3>
+            <h3 class="en">Color psychology</h3>
+            <p class="es">Cada tono comunica emociones universales: el azul transmite confianza e inteligencia (Facebook, HP), el rojo energía (Coca-Cola, Kellogg's), el verde salud (Starbucks, Spotify). Esta semiología visual es la base del diseño de marcas.</p>
+            <p class="en">Every hue communicates universal emotions: blue conveys trust and intelligence (Facebook, HP), red conveys energy (Coca-Cola, Kellogg's), green conveys health (Starbucks, Spotify). This visual semiology is the foundation of brand design.</p>
+          </div>
+
+          <div class="theory-card c4 reveal reveal-delay-3">
+            <h3 class="es">Monocromatismo y diversidad cromática</h3>
+            <h3 class="en">Monochromatism and chromatic diversity</h3>
+            <p class="es">El diseño contemporáneo tiende a paletas monocromáticas (grises, neutros) por razones funcionales y comerciales. Viloria contrasta esta visión reivindicando la riqueza cromática latinoamericana como herramienta de identidad y resistencia cultural.</p>
+            <p class="en">Contemporary design tends toward monochromatic palettes (grays, neutrals) for functional and commercial reasons. Viloria contrasts this by reclaiming Latin American chromatic richness as a tool for identity and cultural resistance.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="theory-visual reveal reveal-delay-2">
+        <img src="img/colores-complementarios.jpg" alt="Círculo cromático y colores complementarios de la charla" loading="lazy" />
+        <img src="img/paleta-emociones.jpg" alt="Diapositiva de paletas de colores analógicos y psicología" loading="lazy" style="margin-top:1.2rem;" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     KEY MESSAGES — TIMELINE
+══════════════════════════════════════ -->
+<section id="mensajes" class="messages-section">
+  <div class="container">
+    <div class="messages-header reveal">
+      <span class="tag es">Estructura del discurso</span>
+      <span class="tag en">Speech structure</span>
+      <h2 class="section-title es">Momentos <span>clave</span> de la charla</h2>
+      <h2 class="section-title en">Key <span>moments</span> of the talk</h2>
+      <p class="section-subtitle es">Cinco grandes ideas que construyeron el mensaje de Sara Viloria durante la conferencia.</p>
+      <p class="section-subtitle en">Five powerful ideas that shaped Sara Viloria's message throughout the conference.</p>
+    </div>
+
+    <div class="messages-timeline">
+
+      <div class="msg-item reveal">
+        <div class="msg-img">
+          <img src="img/evento-general.jpg" alt="Vista general del auditorio lleno durante la charla" loading="lazy" />
+        </div>
+        <div class="msg-dot">1</div>
+        <div class="msg-text">
+          <h4 class="es">La pérdida del color</h4>
+          <h4 class="en">The loss of color</h4>
+          <p class="es">"Cientos de cuentas lo dicen: estamos perdiendo el color." Viloria abre con este diagnóstico reconocido en redes y convierte la pregunta retórica "¿Cómo traerlo de vuelta?" en el motor de toda la conferencia.</p>
+          <p class="en">"Hundreds of accounts say it: we are losing color." Viloria opens with this widely recognized diagnosis and turns the rhetorical question "How do we bring it back?" into the driving force of the entire conference.</p>
+        </div>
+      </div>
+
+      <div class="msg-item reveal">
+        <div class="msg-text">
+          <h4 class="es">El sesgo colonial del "buen gusto"</h4>
+          <h4 class="en">The colonial bias of "good taste"</h4>
+          <p class="es">La ponente critica que en Latinoamérica se inculcó la idea de que "el buen gusto es beige, lo sofisticado es blanco y lo moderno es gris". Una herencia eurocéntrica que desvaloriza la identidad visual propia de la región.</p>
+          <p class="en">The speaker criticizes the deeply ingrained idea in Latin America that "good taste is beige, sophistication is white, and modernity is gray" — a Eurocentric legacy that devalues the region's own visual identity.</p>
+        </div>
+        <div class="msg-dot">2</div>
+        <div class="msg-img">
+          <img src="img/monotono.jpg" alt="Diapositiva sobre monotonía cromática y círculo de colores monocromáticos" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="msg-item reveal">
+        <div class="msg-img">
+          <img src="img/importancia-color.jpg" alt="Diapositiva con la pregunta ¿Por qué es importante saber de color?" loading="lazy" />
+        </div>
+        <div class="msg-dot">3</div>
+        <div class="msg-text">
+          <h4 class="es">Identidad latinoamericana y color</h4>
+          <h4 class="en">Latin American identity and color</h4>
+          <p class="es">Con convicción afirma: "América Latina nunca ha sido beige; somos una historia escrita por muchas manos." Reivindica el legado artístico del muralismo mexicano y el arte indígena donde el color fue símbolo de resistencia.</p>
+          <p class="en">With conviction she states: "Latin America has never been beige; we are a history written by many hands." She reclaims the artistic legacy of Mexican muralism and indigenous art, where color was a symbol of resistance.</p>
+        </div>
+      </div>
+
+      <div class="msg-item reveal">
+        <div class="msg-text">
+          <h4 class="es">El "color verde" en el deporte</h4>
+          <h4 class="en">The "green" of money in sports</h4>
+          <p class="es">Usa un ejemplo concreto: selecciones nacionales que abandonan sus colores por razones financieras. "El color verde (dinero)" reemplaza el emblema patrio. Muestra cómo la lógica de mercado afecta hasta la identidad nacional más visible.</p>
+          <p class="en">She uses a concrete example: national teams abandoning their colors for financial reasons. "The color green (money)" replaces the national emblem — showing how market logic impacts even the most visible expressions of national identity.</p>
+        </div>
+        <div class="msg-dot">4</div>
+        <div class="msg-img">
+          <img src="img/psicologia-color.jpg" alt="Diagrama circular de la psicología del color con marcas" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="msg-item reveal">
+        <div class="msg-img">
+          <img src="img/saturacion.jpg" alt="Modelo 3D de saturación del espacio de color" loading="lazy" />
+        </div>
+        <div class="msg-dot">5</div>
+        <div class="msg-text">
+          <h4 class="es">¡Traigamos el color de vuelta!</h4>
+          <h4 class="en">Let's bring color back!</h4>
+          <p class="es">El llamado a la acción final invita a cada persona a recuperar el color en su vida cotidiana, con creatividad e identidad propias. La repetición del lema cierra el círculo del mensaje y empodera al público.</p>
+          <p class="en">The final call to action invites each person to reclaim color in their daily lives, through creativity and their own identity. The repetition of the motto closes the message loop and empowers the audience.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     GLOSSARY
+══════════════════════════════════════ -->
+<section id="glosario" class="glossary-section">
+  <div class="container">
+    <div class="glossary-header reveal">
+      <span class="tag es">Vocabulario técnico</span>
+      <span class="tag en">Technical vocabulary</span>
+      <h2 class="section-title es">Glosario en <span>Inglés</span></h2>
+      <h2 class="section-title en"><span>Bilingual</span> Glossary</h2>
+      <p class="section-subtitle es">Términos clave del campo del color, el diseño y el desarrollo FrontEnd aprendidos durante el evento.</p>
+      <p class="section-subtitle en">Key terms from the fields of color, design, and FrontEnd development learned during the event.</p>
+    </div>
+
+    <div class="glossary-grid">
+
+      <div class="g-card reveal">
+        <div class="g-en">Color Theory</div>
+        <div class="g-es">Teoría del color</div>
+        <div class="g-def">Study of how colors interact visually and emotionally, forming the foundation of design, art, and communication. / Estudio de cómo los colores interactúan visual y emocionalmente; base del diseño y la comunicación.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-1">
+        <div class="g-en">Chromophobia</div>
+        <div class="g-es">Cromofobia</div>
+        <div class="g-def">Cultural preference for neutral, desaturated palettes over vibrant ones, often linked to Western aesthetic standards. / Preferencia cultural por paletas neutras sobre las vibrantes, asociada a estándares estéticos occidentales.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-2">
+        <div class="g-en">Saturation</div>
+        <div class="g-es">Saturación</div>
+        <div class="g-def">The intensity or purity of a color. High saturation makes colors vivid; low saturation makes them appear grayish or muted. / Intensidad o pureza de un color. Alta saturación lo hace vívido; baja saturación lo hace grisáceo.</div>
+      </div>
+
+      <div class="g-card reveal">
+        <div class="g-en">Complementary Colors</div>
+        <div class="g-es">Colores complementarios</div>
+        <div class="g-def">Colors directly opposite each other on the color wheel that create strong visual contrast when paired. / Colores opuestos en el círculo cromático que generan fuerte contraste visual al combinarse.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-1">
+        <div class="g-en">Color Psychology</div>
+        <div class="g-es">Psicología del color</div>
+        <div class="g-def">The study of how colors influence human emotions, behavior, and decision-making, widely applied in branding. / Estudio de cómo los colores influyen en emociones y decisiones humanas; ampliamente aplicado en marcas.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-2">
+        <div class="g-en">Pantone</div>
+        <div class="g-es">Pantone</div>
+        <div class="g-def">A standardized color identification and reproduction system used globally in design, print, fashion, and manufacturing. / Sistema estandarizado de identificación y reproducción de color usado globalmente en diseño, moda e impresión.</div>
+      </div>
+
+      <div class="g-card reveal">
+        <div class="g-en">Color Semiology</div>
+        <div class="g-es">Semiología del color</div>
+        <div class="g-def">The study of color as a sign system that encodes cultural and social meaning within visual communication. / Estudio del color como sistema de signos que codifica significados culturales y sociales en la comunicación visual.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-1">
+        <div class="g-en">Responsive Design</div>
+        <div class="g-es">Diseño responsivo</div>
+        <div class="g-def">Web design approach ensuring interfaces adapt fluidly to any screen size — desktop, tablet, or mobile. / Enfoque de diseño web que garantiza que las interfaces se adapten a cualquier tamaño de pantalla.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-2">
+        <div class="g-en">Visual Identity</div>
+        <div class="g-es">Identidad visual</div>
+        <div class="g-def">The set of visual elements (colors, typography, logo) that define a brand's personality and make it recognizable. / Conjunto de elementos visuales que definen la personalidad de una marca y la hacen reconocible.</div>
+      </div>
+
+      <div class="g-card reveal">
+        <div class="g-en">UX Design</div>
+        <div class="g-es">Diseño de experiencia de usuario</div>
+        <div class="g-def">The practice of designing digital products to be meaningful, usable, and enjoyable for the people who use them. / Práctica de diseñar productos digitales que sean significativos, usables y agradables para quienes los usan.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-1">
+        <div class="g-en">Color Wheel</div>
+        <div class="g-es">Círculo cromático</div>
+        <div class="g-def">A circular diagram organizing colors by their relationships — primary, secondary, and tertiary — used as a design tool. / Diagrama circular que organiza los colores según sus relaciones primarias, secundarias y terciarias.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-2">
+        <div class="g-en">Circular Economy</div>
+        <div class="g-es">Economía circular</div>
+        <div class="g-def">An economic model focused on eliminating waste by reusing, recycling, and regenerating materials in continuous cycles. / Modelo económico enfocado en eliminar residuos mediante la reutilización y regeneración de materiales.</div>
+      </div>
+
+      <div class="g-card reveal">
+        <div class="g-en">Hue</div>
+        <div class="g-es">Matiz / Tono</div>
+        <div class="g-def">The pure attribute of a color — red, yellow, blue — that distinguishes it from others on the spectrum. / Atributo puro de un color (rojo, amarillo, azul) que lo distingue de otros en el espectro cromático.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-1">
+        <div class="g-en">Monochromatic</div>
+        <div class="g-es">Monocromático</div>
+        <div class="g-def">A color scheme using a single hue in various shades, tones, and tints to create visual harmony. / Esquema de color que usa un solo tono en distintas sombras e intensidades para crear armonía visual.</div>
+      </div>
+
+      <div class="g-card reveal reveal-delay-2">
+        <div class="g-en">Accessibility</div>
+        <div class="g-es">Accesibilidad</div>
+        <div class="g-def">The design practice of ensuring digital content can be perceived, understood, and used by people of all abilities. / Práctica de diseño que garantiza que el contenido digital pueda ser percibido y usado por personas de cualquier capacidad.</div>
+      </div>
+
+      <div class="g-card reveal">
+        <div class="g-en">Decolonial Aesthetics</div>
+        <div class="g-es">Estética decolonial</div>
+        <div class="g-def">An approach to art and design that challenges Eurocentric standards and reclaims non-Western visual traditions and values. / Enfoque artístico que desafía los estándares eurocéntricos y reivindica tradiciones visuales no occidentales.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SUSTAINABILITY
+══════════════════════════════════════ -->
+<section id="sostenibilidad" class="sustain-section">
+  <div class="container">
+    <div class="sustain-grid">
+
+      <div class="sustain-text reveal">
+        <span class="tag es">Reflexión final</span>
+        <span class="tag en">Final reflection</span>
+        <h2 class="section-title es">Tecnología, <span>Sostenibilidad</span> y Economía Circular</h2>
+        <h2 class="section-title en">Technology, <span>Sustainability</span> & Circular Economy</h2>
+        <p class="section-subtitle es">La charla de Sara Viloria no habló directamente de sostenibilidad, pero su mensaje conecta profundamente con los principios de la economía circular: en lugar de desechar la identidad cultural propia, reutilizarla, recuperarla y regenerarla.</p>
+        <p class="section-subtitle en">Sara Viloria's talk did not directly address sustainability, but her message connects deeply with circular economy principles: rather than discarding one's own cultural identity, the goal is to reuse it, recover it, and regenerate it.</p>
+
+        <div class="sustain-pillars">
+          <div class="pillar reveal reveal-delay-1">
+            <div class="pillar-icon">♻️</div>
+            <h4 class="es">Reutilización</h4>
+            <h4 class="en">Reuse</h4>
+            <p class="es">Rescatar herencias cromáticas culturales en lugar de descartarlas por modas globales.</p>
+            <p class="en">Reclaiming cultural chromatic legacies instead of discarding them for global trends.</p>
+          </div>
+          <div class="pillar reveal reveal-delay-2">
+            <div class="pillar-icon">🌿</div>
+            <h4 class="es">Producción sostenible</h4>
+            <h4 class="en">Sustainable production</h4>
+            <p class="es">Diseñar interfaces y productos digitales con propósito, minimizando el desperdicio visual y la sobreproducción estética.</p>
+            <p class="en">Designing interfaces and digital products with purpose, minimizing visual waste and aesthetic overproduction.</p>
+          </div>
+          <div class="pillar reveal reveal-delay-3">
+            <div class="pillar-icon">💡</div>
+            <h4 class="es">Optimización de recursos</h4>
+            <h4 class="en">Resource optimization</h4>
+            <p class="es">Aplicar código limpio y eficiente en proyectos FrontEnd reduce la huella digital y el consumo energético de los servidores.</p>
+            <p class="en">Applying clean, efficient code in FrontEnd projects reduces the digital footprint and server energy consumption.</p>
+          </div>
+          <div class="pillar reveal reveal-delay-4">
+            <div class="pillar-icon">🌍</div>
+            <h4 class="es">Impacto ambiental positivo</h4>
+            <h4 class="en">Positive environmental impact</h4>
+            <p class="es">La industria de la moda es una de las más contaminantes; integrar principios circulares en el diseño de moda es urgente y necesario.</p>
+            <p class="en">The fashion industry is one of the most polluting; integrating circular principles into fashion design is both urgent and necessary.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sustain-visual reveal reveal-delay-2">
+        <img src="img/stand-discoteca.jpg" alt="Stand del evento con CDs reciclados y decoración circular — Moda ECCI" loading="lazy" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     PERSONAL EXPERIENCE
+══════════════════════════════════════ -->
+<section id="experiencia" class="experience-section">
+  <div class="container">
+    <div class="experience-header reveal">
+      <span class="tag es">Reflexión personal</span>
+      <span class="tag en">Personal reflection</span>
+      <h2 class="section-title es">Mi experiencia en <span>Moda ECCI</span></h2>
+      <h2 class="section-title en">My experience at <span>Moda ECCI</span></h2>
+      <p class="section-subtitle es">Cómo este evento académico transformó mi comprensión del diseño visual y su relación con el desarrollo FrontEnd.</p>
+      <p class="section-subtitle en">How this academic event transformed my understanding of visual design and its relationship with FrontEnd development.</p>
+    </div>
+
+    <div class="experience-content">
+      <div class="experience-text reveal">
+        <blockquote class="es">
+          "Ver cómo el color puede ser un acto político y cultural me hizo repensar cada decisión que tomo al diseñar una interfaz."
+        </blockquote>
+        <blockquote class="en">
+          "Seeing how color can be a political and cultural act made me rethink every decision I make when designing an interface."
+        </blockquote>
+
+        <p class="es">Participar en Moda ECCI fue una experiencia que desbordó los límites del aula. La charla de Sara Viloria conectó conceptos que en teoría parecían distantes —la semiología del color, la psicología visual, la identidad latinoamericana— y los volvió herramientas concretas para mi trabajo en FrontEnd.</p>
+        <p class="en">Participating in Moda ECCI was an experience that broke the boundaries of the classroom. Sara Viloria's talk connected concepts that seemed theoretically distant — color semiology, visual psychology, Latin American identity — and turned them into concrete tools for my FrontEnd work.</p>
+
+        <p class="es">Aprendí que elegir una paleta de colores no es solo una decisión estética: es una declaración de identidad. Aplicar la teoría del color de manera consciente en interfaces digitales no solo mejora la experiencia de usuario, sino que comunica valores, emociones y pertenencia cultural.</p>
+        <p class="en">I learned that choosing a color palette is not just an aesthetic decision — it is a declaration of identity. Applying color theory consciously in digital interfaces not only improves the user experience, it also communicates values, emotions, and cultural belonging.</p>
+
+        <p class="es">Los stands del evento también fueron reveladores: cada diseñador estudiantil usó el color con intención, creando mundos visuales completos a partir de una paleta coherente. Eso es exactamente lo que aspiro a hacer en cada proyecto web.</p>
+        <p class="en">The event's stands were equally revealing: each student designer used color with intention, creating complete visual worlds from a coherent palette. That is exactly what I aspire to achieve in every web project.</p>
+      </div>
+
+      <div class="experience-imgs reveal reveal-delay-2">
+        <img src="img/evento-general.jpg" alt="Vista panorámica del evento Moda ECCI con todos los stands y asistentes" loading="lazy" />
+        <img src="img/stand-habitacion.jpg" alt="Stand artístico inspirado en una habitación con peluches y arte visual" loading="lazy" />
+        <img src="img/stand-azul.jpg" alt="Stand en tonos azul y blanco con diseño de vestido artesanal" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        Traigamos el Color de Vuelta
+        <small>Moda ECCI · 2026 · ADSO FrontEnd</small>
+      </div>
+      <p class="footer-copy es">
+        Proyecto académico ECCI · Actividad 2 FrontEnd ADSO<br />
+        Desarrollado en HTML5, CSS3 &amp; JavaScript<br />
+        © <span id="year"></span> — Todos los derechos reservados
+      </p>
+      <p class="footer-copy en">
+        ECCI Academic Project · Activity 2 FrontEnd ADSO<br />
+        Built with HTML5, CSS3 &amp; JavaScript<br />
+        © <span class="year-en"></span> — All rights reserved
+      </p>
+    </div>
+  </div>
+  <div class="footer-strip" aria-hidden="true"></div>
+</footer>
+
+
+<!-- ══════════════════════════════════════
+     LIGHTBOX
+══════════════════════════════════════ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbClose" aria-label="Cerrar visor">&#x2715;</button>
+    <img id="lbImg" src="" alt="" />
+    <p class="lb-caption" id="lbCaption"></p>
+  </div>
+  <button class="lb-prev" id="lbPrev" aria-label="Imagen anterior">&#8592;</button>
+  <button class="lb-next" id="lbNext" aria-label="Imagen siguiente">&#8594;</button>
+</div>
+
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+
+<!-- Second year span for EN footer -->
+<script>
+  document.querySelectorAll('.year-en').forEach(el => el.textContent = new Date().getFullYear());
+</script>
+
+</body>
+</html>
